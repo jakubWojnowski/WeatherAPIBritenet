@@ -1,0 +1,6 @@
+2023-04-27 20:39:27.9594 Info Message Template Auto Format enabled
+2023-04-27 20:39:27.9677 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-27 20:39:28.0078 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-27 20:39:28.0078 Info Registered target NLog.Targets.FileTarget(Name=exceptions)
+2023-04-27 20:39:28.0256 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=46, FilePath=C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI\bin\Debug\net7.0\NLog.config
+2023-04-27 20:39:28.1426 Info Validating config: TargetNames=allfile, exceptions, ConfigItems=46, FilePath=C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI\bin\Debug\net7.0\NLog.config

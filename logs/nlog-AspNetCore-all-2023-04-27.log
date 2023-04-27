@@ -1,0 +1,120 @@
+2023-04-27 20:39:28.0471|0|DEBUG|Program|init main 
+2023-04-27 20:39:28.1956|12|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-04-27 20:39:28.2373|1|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-04-27 20:39:28.2607|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5091 
+2023-04-27 20:39:28.2607|13|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly WeatherAPI 
+2023-04-27 20:39:28.2607|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-04-27 20:39:28.2607|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-04-27 20:39:28.2607|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI 
+2023-04-27 20:39:28.2607|2|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-04-27 20:39:28.7638|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6F" received FIN. 
+2023-04-27 20:39:28.7682|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6F" accepted. 
+2023-04-27 20:39:28.7682|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6F" started. 
+2023-04-27 20:39:28.7682|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6F" sending FIN because: "The client closed the connection." 
+2023-04-27 20:39:28.7682|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6F" disconnecting. 
+2023-04-27 20:39:28.7823|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6F" stopped. 
+2023-04-27 20:39:28.8480|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6G" accepted. 
+2023-04-27 20:39:28.8480|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6G" started. 
+2023-04-27 20:39:28.8758|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5091/weatherforecast - - 
+2023-04-27 20:39:28.8758|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-04-27 20:39:28.8758|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-27 20:39:28.8983|1000|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/weatherforecast' 
+2023-04-27 20:39:28.8983|2|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-04-27 20:39:28.9062|3|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2023-04-27 20:39:28.9062|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6G" completed keep alive response. 
+2023-04-27 20:39:28.9062|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5091/weatherforecast - - - 404 0 - 35.3921ms 
+2023-04-27 20:39:29.4057|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6H" accepted. 
+2023-04-27 20:39:29.4057|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6H" started. 
+2023-04-27 20:39:29.4057|39|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6I" accepted. 
+2023-04-27 20:39:29.4057|1|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6I" started. 
+2023-04-27 20:39:29.4057|6|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6H" received FIN. 
+2023-04-27 20:39:29.4057|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6H" sending FIN because: "The client closed the connection." 
+2023-04-27 20:39:29.4057|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6H" disconnecting. 
+2023-04-27 20:39:29.4057|1|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5091/api/weather/GetByNameWeather/1234 - - 
+2023-04-27 20:39:29.4057|2|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-04-27 20:39:29.4057|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6H" stopped. 
+2023-04-27 20:39:29.4057|1001|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/weather/GetByNameWeather/1234' 
+2023-04-27 20:39:29.4057|1005|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI)' with route pattern 'api/weather/GetByNameWeather/{name}' is valid for the request path '/api/weather/GetByNameWeather/1234' 
+2023-04-27 20:39:29.4057|1|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI)' 
+2023-04-27 20:39:29.4057|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI)' 
+2023-04-27 20:39:29.4509|102|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetWeatherById", controller = "Weather"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetWeatherById(System.String) on controller WeatherAPI.Controllers.WeatherController (WeatherAPI). 
+2023-04-27 20:39:29.4509|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-04-27 20:39:29.4509|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-04-27 20:39:29.4509|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-04-27 20:39:29.4509|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-04-27 20:39:29.4509|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2023-04-27 20:39:29.4535|1|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller WeatherAPI.Controllers.WeatherController (WeatherAPI) 
+2023-04-27 20:39:29.4535|2|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller WeatherAPI.Controllers.WeatherController (WeatherAPI) 
+2023-04-27 20:39:29.4535|22|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'name' of type 'System.String' ... 
+2023-04-27 20:39:29.4535|44|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'name' of type 'System.String' using the name 'name' in request data ... 
+2023-04-27 20:39:29.4535|45|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'name' of type 'System.String'. 
+2023-04-27 20:39:29.4535|23|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'name' of type 'System.String'. 
+2023-04-27 20:39:29.4535|26|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'name' of type 'System.String' ... 
+2023-04-27 20:39:29.4535|27|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'name' of type 'System.String'. 
+2023-04-27 20:39:29.4688|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-27 20:39:29.4688|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-27 20:39:29.4688|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-27 20:39:29.4688|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-27 20:39:29.4688|101|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI) - Validation state: Valid 
+2023-04-27 20:39:29.4688|102|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI) with arguments (1234) 
+2023-04-27 20:39:29.4688|100|INFO|System.Net.Http.HttpClient.Default.LogicalHandler|Start processing HTTP request GET https://danepubliczne.imgw.pl/api/data/synop/station/1234 
+2023-04-27 20:39:29.4688|102|TRACE|System.Net.Http.HttpClient.Default.LogicalHandler|Request Headers:
+ 
+2023-04-27 20:39:29.4688|100|INFO|System.Net.Http.HttpClient.Default.ClientHandler|Sending HTTP request GET https://danepubliczne.imgw.pl/api/data/synop/station/1234 
+2023-04-27 20:39:29.4688|102|TRACE|System.Net.Http.HttpClient.Default.ClientHandler|Request Headers:
+ 
+2023-04-27 20:39:29.6392|101|INFO|System.Net.Http.HttpClient.Default.ClientHandler|Received HTTP response headers after 156.3762ms - 404 
+2023-04-27 20:39:29.6403|103|TRACE|System.Net.Http.HttpClient.Default.ClientHandler|Response Headers:
+Date: Thu, 27 Apr 2023 18:39:28 GMT
+Server: Apache/2.4.6, (CentOS), OpenSSL/1.0.1e-fips, mod_fcgid/2.3.9, PHP/7.0.33, mod_perl/2.0.10, Perl/v5.16.3
+X-Powered-By: PHP/7.0.33
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin ,X-Requested-With ,Content-Type ,Accept ,Access-Control-Request-Method
+Access-Control-Allow-Methods: GET ,POST ,OPTIONS
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+ 
+2023-04-27 20:39:29.6403|101|INFO|System.Net.Http.HttpClient.Default.LogicalHandler|End processing HTTP request after 164.0887ms - 404 
+2023-04-27 20:39:29.6403|103|TRACE|System.Net.Http.HttpClient.Default.LogicalHandler|Response Headers:
+Date: Thu, 27 Apr 2023 18:39:28 GMT
+Server: Apache/2.4.6, (CentOS), OpenSSL/1.0.1e-fips, mod_fcgid/2.3.9, PHP/7.0.33, mod_perl/2.0.10, Perl/v5.16.3
+X-Powered-By: PHP/7.0.33
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin ,X-Requested-With ,Content-Type ,Accept ,Access-Control-Request-Method
+Access-Control-Allow-Methods: GET ,POST ,OPTIONS
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+ 
+2023-04-27 20:39:29.6403|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-27 20:39:29.6403|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-04-27 20:39:29.6403|52|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-27 20:39:29.6403|53|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-04-27 20:39:29.6403|105|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI) in 196.5808ms 
+2023-04-27 20:39:29.6403|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WeatherAPI.Controllers.WeatherController.GetWeatherById (WeatherAPI)' 
+2023-04-27 20:39:29.6403|0|ERROR|WeatherAPI.Middleware.ErrorHandlingMiddleware|Response status code does not indicate success: 404 (Not Found). System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at WeatherAPI.Services.WeatherService.GetByName(String stationName) in C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI\Services\WeatherService.cs:line 28
+   at WeatherAPI.Controllers.WeatherController.GetWeatherById(String name) in C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI\Controllers\WeatherController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WeatherAPI.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\jakub\Desktop\zadanie rekrutacyjne Britenet\WeatherAPI\Middleware\ErrorHandlingMiddleware.cs:line 18
+2023-04-27 20:39:29.6770|9|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6I" completed keep alive response. 
+2023-04-27 20:39:29.6770|2|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5091/api/weather/GetByNameWeather/1234 - - - 500 - - 268.7779ms 
+2023-04-27 20:39:51.4739|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2023-04-27 20:39:51.4739|3|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2023-04-27 20:39:51.4739|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6G" disconnecting. 
+2023-04-27 20:39:51.4739|10|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6I" disconnecting. 
+2023-04-27 20:39:51.4739|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6G" stopped. 
+2023-04-27 20:39:51.4739|2|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMQ79QTTHT6I" stopped. 
+2023-04-27 20:39:51.4739|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6G" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-04-27 20:39:51.4739|7|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMQ79QTTHT6I" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-04-27 20:39:51.4845|4|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
